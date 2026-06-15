@@ -1,0 +1,99 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+.mode-landscape .sl-roi { grid-column: span 3; }
+.mode-portrait .sl-roi { grid-column: span 2; }
+</style>
+<section class="w-full h-full bg-white overflow-hidden">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- Header -->
+    <div class="mb-6 flex-shrink-0">
+      <span class="text-indigo-600 text-xs font-bold uppercase tracking-widest">Why Approva</span>
+      <h2 class="text-2xl font-black text-slate-900 mt-1">Measurable outcomes for agencies and clients</h2>
+    </div>
+
+    <!-- Metric cards + ROI -->
+    <div class="sl-grid grid gap-3 flex-1 min-h-0">
+
+      <!-- Card 1 -->
+      <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 flex flex-col justify-between">
+        <div>
+          <div class="text-xs text-slate-500 font-semibold uppercase tracking-wide mb-2">Revision clarity</div>
+          <div class="text-3xl font-black text-indigo-600 mb-1">8 states</div>
+          <div class="text-xs text-slate-500 leading-relaxed">Draft → Submitted → In Review → Revision Requested → Resubmitted → Approved → Rejected → Completed. Zero ambiguity on where a file stands.</div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 flex flex-col justify-between">
+        <div>
+          <div class="text-xs text-slate-500 font-semibold uppercase tracking-wide mb-2">Review rounds</div>
+          <div class="text-3xl font-black text-indigo-600 mb-1">Unlimited</div>
+          <div class="text-xs text-slate-500 leading-relaxed">No artificial caps. Iterate freely — every round is tracked with its own history, summary, and per-round approval record.</div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 flex flex-col justify-between">
+        <div>
+          <div class="text-xs text-slate-500 font-semibold uppercase tracking-wide mb-2">File security</div>
+          <div class="text-3xl font-black text-indigo-600 mb-1">Expiring URLs</div>
+          <div class="text-xs text-slate-500 leading-relaxed">Every file served via access-controlled, time-limited links. No public leaks, no unauthorized downloads — role-gated at every level.</div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 flex flex-col justify-between">
+        <div>
+          <div class="text-xs text-slate-500 font-semibold uppercase tracking-wide mb-2">Feedback precision</div>
+          <div class="text-3xl font-black text-violet-600 mb-1">Pin-point</div>
+          <div class="text-xs text-slate-500 leading-relaxed">Coordinate-based image annotations, video timestamp markers, and PDF page anchors. Feedback tied to the exact frame or pixel that needs it.</div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 flex flex-col justify-between">
+        <div>
+          <div class="text-xs text-slate-500 font-semibold uppercase tracking-wide mb-2">Approval record</div>
+          <div class="text-3xl font-black text-emerald-600 mb-1">Full audit</div>
+          <div class="text-xs text-slate-500 leading-relaxed">Every approval decision is timestamped and attributed. Who approved, which version, when — permanently on record for every deliverable.</div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 flex flex-col justify-between">
+        <div>
+          <div class="text-xs text-slate-500 font-semibold uppercase tracking-wide mb-2">Client onboarding</div>
+          <div class="text-3xl font-black text-amber-600 mb-1">Email invite</div>
+          <div class="text-xs text-slate-500 leading-relaxed">Clients join via secure email invitation — no IT setup, no account creation friction. Project-scoped access, revocable at any time.</div>
+        </div>
+      </div>
+
+      <!-- ROI Summary -->
+      <div class="sl-roi bg-indigo-600 rounded-2xl p-6 flex items-center justify-between gap-8">
+        <div class="flex-1">
+          <div class="text-indigo-200 text-xs font-bold uppercase tracking-widest mb-2">Business Impact</div>
+          <div class="text-white text-lg font-black leading-snug">Replace scattered email reviews with a structured platform that closes approval cycles faster and keeps every stakeholder aligned.</div>
+        </div>
+        <div class="flex gap-6 flex-shrink-0">
+          <div class="text-center">
+            <div class="text-3xl font-black text-white">↓</div>
+            <div class="text-indigo-200 text-xs font-semibold mt-1">Revision cycles</div>
+          </div>
+          <div class="w-px bg-indigo-500"></div>
+          <div class="text-center">
+            <div class="text-3xl font-black text-emerald-300">↑</div>
+            <div class="text-indigo-200 text-xs font-semibold mt-1">Client trust</div>
+          </div>
+          <div class="w-px bg-indigo-500"></div>
+          <div class="text-center">
+            <div class="text-3xl font-black text-white">✓</div>
+            <div class="text-indigo-200 text-xs font-semibold mt-1">Audit-ready</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
