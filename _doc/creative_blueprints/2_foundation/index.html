@@ -1,0 +1,113 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-problem { width: 50%; }
+.mode-portrait .sl-problem { width: 100%; flex: 1; }
+.mode-landscape .sl-solution { width: 50%; }
+.mode-portrait .sl-solution { width: 100%; flex: 1; }
+</style>
+<section class="w-full h-full bg-white overflow-hidden">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Problem -->
+    <div class="sl-problem bg-slate-900 flex flex-col justify-between p-12">
+      <div>
+        <div class="flex items-center gap-2 mb-8">
+          <div class="w-2 h-2 rounded-full bg-rose-500"></div>
+          <span class="text-rose-400 text-xs font-bold uppercase tracking-widest">The Problem</span>
+        </div>
+        <h2 class="text-3xl font-black text-white leading-snug mb-6">
+          Creative approvals live in email chaos.
+        </h2>
+        <p class="text-slate-400 text-sm leading-relaxed mb-8">
+          Marketing agencies manage reviews across email threads, Slack, and shared drives — with no structure, no version control, and no audit trail.
+        </p>
+      </div>
+      <div class="space-y-3">
+        <div class="flex items-start gap-3 bg-slate-800 rounded-xl p-4">
+          <div class="w-2 h-2 rounded-full bg-rose-500 mt-1.5 flex-shrink-0"></div>
+          <div>
+            <div class="text-white text-sm font-semibold">Feedback gets lost</div>
+            <div class="text-slate-400 text-xs mt-0.5">Scattered across threads, no single source of truth</div>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 bg-slate-800 rounded-xl p-4">
+          <div class="w-2 h-2 rounded-full bg-rose-500 mt-1.5 flex-shrink-0"></div>
+          <div>
+            <div class="text-white text-sm font-semibold">Wrong versions approved</div>
+            <div class="text-slate-400 text-xs mt-0.5">No versioning — clients approve outdated files</div>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 bg-slate-800 rounded-xl p-4">
+          <div class="w-2 h-2 rounded-full bg-rose-500 mt-1.5 flex-shrink-0"></div>
+          <div>
+            <div class="text-white text-sm font-semibold">No approval record</div>
+            <div class="text-slate-400 text-xs mt-0.5">Who approved what, when? Nobody knows.</div>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 bg-slate-800 rounded-xl p-4">
+          <div class="w-2 h-2 rounded-full bg-rose-500 mt-1.5 flex-shrink-0"></div>
+          <div>
+            <div class="text-white text-sm font-semibold">Projects stall</div>
+            <div class="text-slate-400 text-xs mt-0.5">Delayed cycles cost time and client trust</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Solution -->
+    <div class="sl-solution bg-white flex flex-col justify-between p-12">
+      <div>
+        <div class="flex items-center gap-2 mb-8">
+          <div class="w-2 h-2 rounded-full bg-indigo-600"></div>
+          <span class="text-indigo-600 text-xs font-bold uppercase tracking-widest">The Solution</span>
+        </div>
+        <h2 class="text-3xl font-black text-slate-900 leading-snug mb-4">
+          One workspace. Every project. Zero ambiguity.
+        </h2>
+        <p class="text-slate-500 text-sm leading-relaxed mb-8">
+          Approva gives every project a dedicated review workspace — structured rounds, annotated feedback, and timestamped approvals. Agency teams and clients in one place.
+        </p>
+      </div>
+      <div class="space-y-3">
+        <div class="flex items-start gap-3 border border-indigo-100 bg-indigo-50 rounded-xl p-4">
+          <div class="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center flex-shrink-0">
+            <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <div>
+            <div class="text-slate-800 text-sm font-semibold">Unlimited review rounds, all tracked</div>
+            <div class="text-slate-500 text-xs mt-0.5">Round history, summaries, per-round approval status</div>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 border border-indigo-100 bg-indigo-50 rounded-xl p-4">
+          <div class="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center flex-shrink-0">
+            <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <div>
+            <div class="text-slate-800 text-sm font-semibold">Annotations, timestamps, threaded replies</div>
+            <div class="text-slate-500 text-xs mt-0.5">Pin feedback on images, timestamp video frames, anchor PDF comments</div>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 border border-indigo-100 bg-indigo-50 rounded-xl p-4">
+          <div class="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center flex-shrink-0">
+            <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <div>
+            <div class="text-slate-800 text-sm font-semibold">Timestamped, attributed approvals</div>
+            <div class="text-slate-500 text-xs mt-0.5">Who approved, what version, when — full audit record</div>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 border border-emerald-100 bg-emerald-50 rounded-xl p-4">
+          <div class="w-7 h-7 rounded-lg bg-emerald-500 flex items-center justify-center flex-shrink-0">
+            <svg class="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+          </div>
+          <div>
+            <div class="text-slate-800 text-sm font-semibold">Secure, expiring file URLs</div>
+            <div class="text-slate-500 text-xs mt-0.5">Role-gated access, versioned storage, download controls</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
